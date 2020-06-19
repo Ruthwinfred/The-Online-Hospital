@@ -1,0 +1,55 @@
+h1{
+			color: darkblue;
+			text-align: center;
+		}
+p{
+	color:blue;
+}
+p::selection{
+	color:white;
+	background-color: darkgrey;
+}
+div{
+	text-align: center;
+	width: 80%;
+	height: 40%;
+}
+#bod{
+	background-image: url("Img/Img1.jpg");
+	background-repeat: no-repeat;
+	background-size:60%;
+	background-position: 50% 50%;
+
+}
+input[type=text]{
+	background-color: darkgrey;
+}
+input[type=password]{
+	background-color: darkgrey;
+}
+input[type=email]{
+	background-color: darkgrey;
+}
+input[type=tel]{
+	background-color: darkgrey;
+}
+input[type=datetime-local]{
+	background-color: darkgrey;
+}
+input[type=reset]{
+	background-color: darkgrey;
+}
+button {
+	width: 60px;
+	height: 20px;
+	font-size: 13px;
+	background-color: darkgrey;
+	align-content: center;
+}
+button:hover {
+	background-color: white;
+}
+a::before {
+	content: "\21d2";
+	font-weight: bold;
+}
