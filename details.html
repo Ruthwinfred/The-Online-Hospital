@@ -1,0 +1,33 @@
+<!Doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Details</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+     <form action="login.html">
+                <fieldset>
+                    <legend>Personal information:</legend>
+                    First Name:<input type="text" name="First Name" placeholder="First Name" required> <br><br>Last Name:<input type="text" name="Last Name" placeholder="Last Name" required><br><br> Nationality:<input name="Nationality" list="Nationality" type="text"placeholder="Nationality" required>
+		    <datalist id="Nationality">
+			<option value="Kenya">
+			<option value="Uganda">
+			<option value="Tanzania">
+			<option value="Burundi">
+			<option value="Rwanda">
+			<option value="Namibia">
+			<option value="Malawi">
+			<option value="Togo">
+			<option value="Nigeria">
+			<option value="Zambia"></datalist> <br><br>E-mail:<input type="email" placeholder="Email" required><br><br> User Name:<input type="text" name="User Name" placeholder="User Name" required><br><br>Password:
+                    <input type="password" name="password" Placeholder="Password" required><br><br>Mobile No.<input type="tel" name="phone" pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{2}" placeholder="Mobile No." required><span>Format: 01-234-567-89</span><br><br> National ID/Passport number:<input type="text" name="ID" placeholder="National ID" required><br><br>Gender:<br><input type="radio" name="gender" value="male" required>Male<br><br>
+                    <input type="radio" name="gender" value="female" required>Female<br><br>
+                    <input type="radio" name="gender" value="other" required>Other<br><br>
+                    Date:<input type="datetime-local" name="signuptime" required><br><br>
+                    <button type="submit">Register</button>
+                    <input type="reset">
+                </fieldset>
+            </form>
+</body>
+</html>

@@ -5,14 +5,14 @@
 	<title>Healthcare app</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
+<body id="bod">
 <h1>The Online Hospital</h1>
 <div>
-	<h1>To acces your medical services,log in or sign up below:</h1>
-	<form>
-		<input type="text" name="Patient" placeholder="Patient username">&nbsp;&nbsp;
-		<input type="text" name="id" placeholder="password">&nbsp;&nbsp;
-		<button>login</button>&nbsp;&nbsp;or&nbsp;&nbsp;<button>sign up</button>
+	<h1>Log in or sign up below to be served:</h1>
+	<form action="Home.html">
+		<input type="text" name="Patient" placeholder="Patient username" required>&nbsp;&nbsp;
+		<input type="password" name="id" placeholder="password" required>&nbsp;&nbsp;
+		<button>login</button><br><br><p>Not Registered?</p>&nbsp;&nbsp;<a href="details.html">Sign up</a>
 	</form>
 </div>
 </body>
