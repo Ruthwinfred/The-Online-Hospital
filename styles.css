@@ -15,35 +15,38 @@ div{
 	height: 40%;
 }
 #bod{
+	background-color: green;
 	background-image: url("Img/Img1.jpg");
 	background-repeat: no-repeat;
 	background-size:60%;
 	background-position: 50% 50%;
-
+}
+#bodi{
+	background-color: green;
 }
 input[type=text]{
-	background-color: darkgrey;
+	background-color: white;
 }
 input[type=password]{
-	background-color: darkgrey;
+	background-color: white;
 }
 input[type=email]{
-	background-color: darkgrey;
+	background-color: white;
 }
 input[type=tel]{
-	background-color: darkgrey;
+	background-color: white;
 }
 input[type=datetime-local]{
-	background-color: darkgrey;
+	background-color: white;
 }
 input[type=reset]{
-	background-color: darkgrey;
+	background-color: white;
 }
 button {
 	width: 60px;
 	height: 20px;
 	font-size: 13px;
-	background-color: darkgrey;
+	background-color: white;
 	align-content: center;
 }
 button:hover {
