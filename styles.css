@@ -14,15 +14,11 @@ div{
 	width: 80%;
 	height: 40%;
 }
-#bod{
-	background-color: green;
+	#bod{
 	background-image: url("Img/Img1.jpg");
 	background-repeat: no-repeat;
 	background-size:60%;
 	background-position: 50% 50%;
-}
-#bodi{
-	background-color: green;
 }
 input[type=text]{
 	background-color: white;
@@ -55,4 +51,29 @@ button:hover {
 a::before {
 	content: "\21d2";
 	font-weight: bold;
+}
+@media print{
+	.screen-only{
+		display: none;
+	}
+}
+@media (min-width: 300px){
+	#bod{
+		background-color: red;
+	}
+}
+@media (max-width: 780px) {
+	#bod{
+		background-color: green;
+	}
+}
+@media (min-width: 300px){
+	#bodi{
+		background-color: red;
+	}
+}
+@media (min-width: 780px){
+	#bodi{
+		background-color: green;
+	}
 }
